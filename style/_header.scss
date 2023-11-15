@@ -1,0 +1,152 @@
+
+/* found in components/header.js */
+
+header {
+    background-color: $header;
+
+    #topbar {
+        height: 30px;
+        background-color: $header_acc;
+    }
+
+    #navbar {
+        width: 56.25%;
+        max-width: 1080px;
+        height: 100px;
+        margin: 0 auto;
+        background-color: $header;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        #logo {
+            display: flex;
+            flex-direction: row;
+            z-index: 1; // to layer over navbar-border
+
+            #logo-cont {
+                width: 220px;
+                height: 140px;
+                margin-top: 40px;
+                background-image: url(../images/logo_container-background.png);
+
+                #logo-image {
+                    width: 70px;
+                    height: 100px;
+                    margin-top: 8px;
+                    margin-left: 75px;
+                    background-image: url(../images/logo.png);
+                }
+            }
+    
+            #title {
+                color: #fff;
+                margin-top: 60px;
+                margin-left: 10px;
+
+                h1 { font-size: 1.875rem; }
+                h2 { font-size: 1.5rem;}
+            }
+        }
+
+        #nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            z-index: 1; // to layer over navbar-border
+
+            .nav-item {
+                height: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                line-height: 40px;
+                font-weight: bold; 
+                font-family: 'Quattrocento Sans', sans-serif;
+                border-right: 0.5px solid rgba(225, 255, 255, 0.25);
+                color: #fff;
+
+                &:first-child {
+                    border-left: 0.5px solid rgba(225, 255, 255, 0.25);
+                }
+            }
+        }
+
+        /* for responsive dropdown starting at max-width: 601px */
+        #nav-mobile {
+            width: 36px;
+            height: 36px;
+            background-image: url(../images/hamburger_open.png);
+
+            display: none;
+
+            #nav-mobile_item-container {
+                position: absolute;
+                width: 100%;
+                margin-top: 75px;
+                right: 0;
+                background-color: $header_acc;
+                border-radius: 4px;
+                z-index: 1;
+
+                display: none;
+                flex-direction: column;
+
+                .nav-item-mobile {
+                    padding-left: 20px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    font-weight: bold; 
+                    font-family: 'Quattrocento Sans', sans-serif;
+                    border-bottom: 0.5px solid rgba(225, 255, 255, 0.25);
+                    color: #fff;
+
+                    .dropdown-item-mobile {
+                        background-color: $header;
+                        margin-right: 20px;
+                        margin-top: 20px;
+                        border-top: 4px solid #fff;
+                        border-radius: 2px;
+
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;
+
+                        a {
+                            padding-left: 8px;
+                            padding-top: 10px;
+                            padding-bottom: 16px;
+                            font-size: 0.875rem;
+                            border-bottom: 0.5px solid rgba(225, 255, 255, 0.25);
+                            color: #fff;
+
+                            &:first-child {
+                                padding-top: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #navbar-border {
+        max-width: 1920px;
+        height: 20px;
+        left: 0; 
+        right: 0; 
+        margin-top: -1px;
+        margin-left: auto; 
+        margin-right: auto; 
+        position: absolute;
+        background-image: url(../images/navbar-border.png);
+    }
+
+    #banner {
+        height: 320px;
+        margin: 0 auto;
+        background-image: url(../images/banner_1920px.png);
+    }
+}

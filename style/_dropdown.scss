@@ -1,0 +1,38 @@
+body {
+    header {
+        #navbar {
+            #nav {
+                .nav-item {
+                    .dropdown-item { 
+                        position: absolute;
+                        width: 200px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        margin-left: -20px;
+                        border-top: 4px solid #fff;
+                        background-color: #888;
+
+                        display: none;
+
+                        a {
+                            font-size: 0.875rem;
+                            border-bottom: 0.5px solid rgba(225, 255, 255, 0.25);
+                            color: #fff;
+
+                            &:hover {
+                                color: #333;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        .dropdown-item { 
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+                }
+            } 
+        }
+    }
+}

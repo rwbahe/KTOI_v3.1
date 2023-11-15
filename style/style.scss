@@ -1,0 +1,80 @@
+@import "./variables";
+@import "./header";
+@import "./footer";
+@import "./dropdown";
+@import "./homepage";
+@import "./sidepage";
+@import "./responsive";
+
+h1, h2, h3, h4, h5, h6, p, a, ul, table {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: $footer;
+}
+
+/* multipage style items */
+
+#section_acc {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: -70px;
+    margin-top: -60px;
+    background-image: url(../images/section_acc.png);
+    opacity: .25;
+    z-index: 0;
+}
+
+#button-learnMore {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    background-color: rgba($color: $accent_red, $alpha: 0.8);
+    font-size: 0.75rem;
+    color: #fff;
+}
+
+#bullet-list {
+    list-style: circle;
+    margin-left: 36px;
+    
+    li {
+        margin-bottom: 8px;
+    }
+}
+
+#boxed-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 16px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 6px;
+        background-color: $layout_1;
+        color: #333;
+    }
+}

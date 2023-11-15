@@ -1,0 +1,51 @@
+
+/* styling for sidepages found under "page_*" folders */
+
+.sidepage-container {
+    width: 56.25%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: -110px;
+    border-top: 4px solid $border;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+
+    .sidepage-section {
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        h1 {
+            font-size: 2.25rem;
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 40px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 24px;
+        }
+
+        #contact {
+            margin-bottom: 8px;
+        }
+
+        #deptContacts {
+            display: flex;
+            flex-direction: row;
+            gap: 90px;
+        }
+
+        a {
+            font-size: 1rem;
+            text-decoration: none;
+            margin-bottom: 24px;
+        }
+    }
+}

@@ -1,0 +1,405 @@
+
+/* responsive design code, desktop, tablet & mobile*/
+
+@media screen and (max-width: 1536px) {
+    body {
+        header {
+            #navbar {
+                width: 65%;
+            }
+
+            #banner {
+                background-image: url(../images/banner_1536px.png);
+            }
+        }
+
+        main {
+            #main-container_A {
+                width: 65%;
+            }
+
+            #main-container_B {
+                #main-section_3 {
+                    width: 65%;
+                }
+            }
+
+            .sidepage-container {
+                width: 65%;
+            }
+        }
+
+        footer {
+            #footer-cont {
+                width: 65%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        header {
+            #navbar {
+                width: 70%;
+            }
+
+            #banner {
+                background-image: url(../images/banner_1440px.png);
+            }
+        }
+
+        main {
+            #main-container_A {
+                width: 70%;
+            }
+
+            #main-container_B {
+                #main-section_3 {
+                    width: 70%;
+                }
+            }
+
+            .sidepage-container {
+                width: 70%;
+            }
+        }
+
+        footer {
+            #footer-cont {
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        header {
+            #banner {
+                background-image: url(../images/banner_1366px.png);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        header {
+            #navbar {
+                width: 80%;
+            }
+
+            #banner {
+                background-image: url(../images/banner_1280px.png);
+            }
+        }
+
+        main {
+            #main-container_A {
+                width: 80%;
+            }
+
+            #main-container_B {
+                #main-section_3 {
+                    width: 80%;
+                }
+            }
+
+            .sidepage-container {
+                width: 80%;
+            }
+        }
+
+        footer {
+            #footer-cont {
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        header {
+            #navbar {
+                width: 85%;
+            
+                #logo {
+                    #title {
+                        margin-top: 68px;
+                        margin-left: 0px;
+
+                        h1 { font-size: 1.5rem; }
+                        h2 { font-size: 1.125rem;}
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 962px) {
+    body {
+        header {
+            #navbar {
+                #logo {
+                    #title {
+                        display: none;
+                    }
+                }
+            }
+
+            #banner {
+                background-image: url(../images/banner_962px.png);
+            }
+        }
+
+        main {
+            #main-container_C {
+                #main-section_4 {
+                    width: 75%;
+                }
+            }
+
+            .sidepage-container {
+                .sidepage-section {
+                    padding-left: 80px;
+                    padding-right: 80px;
+                }
+            }
+
+            #boxed-list {
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        header {
+            #navbar {
+                width: 85%;
+            }
+
+            #banner {
+                background-image: url(../images/banner_800px.png);
+            }
+        }
+
+        main {
+            #main-container_A {
+                width: 85%;
+            }
+
+            #main-container_B {
+                #main-section_3 {
+                    width: 85%;
+                }
+            }
+
+            .sidepage-container {
+                width: 85%;
+            }
+        }
+
+        footer {
+            #footer-cont {
+                width: 85%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        header {
+            #navbar {
+                width: 90%;
+            }
+        }
+
+        main {
+            #main-container_A {
+                width: 90%;
+            }
+
+            #main-container_B {
+                #main-section_3 {
+                    width: 90%;
+                }
+            }
+
+            .sidepage-container {
+                width: 90%;
+            }
+        }
+
+        footer {
+            #footer-cont {
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 601px) {
+    body {
+        header {
+            #navbar { 
+                #nav {
+                    display: none;
+                }
+
+                #nav-mobile {
+                    display: flex;
+                }
+            }
+
+            #banner {
+                background-image: url(../images/banner_601px.png);
+            }
+        }
+
+        main {
+            #main-container_A {
+                width: 90%;
+
+                #main-section_1 {
+                    #ms_1-b {
+                        display: none;
+                    }
+                }
+            }
+
+            #main-container_B {
+                #main-section_3 {
+                    width: 90%;
+                    flex-direction: column;
+                }
+            }
+
+            .sidepage-container {
+                width: 100%;
+
+                .sidepage-section {
+                    padding-left: 50px;
+                    padding-right: 50px;
+                }
+            }
+
+            #bullet-list {             
+                li {
+                    margin-bottom: 12px;
+                }
+            }
+        }
+
+        footer {
+            background-color: #262626;
+
+            #footer-cont {
+                #footer-info {
+                    flex-direction: column;
+                    gap: 32px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    body {
+        header {
+            #navbar { 
+                width: 100%;
+
+                #nav-mobile {
+                    margin-right: 36px;
+                }
+            }
+
+            #banner {
+                background-image: url(../images/banner_414px.png);
+            }
+        }
+
+        main {
+            #main-container_A {
+                width: 100%;
+                border-top: 6px solid #262626;
+
+                #main-section_1 {
+                    #ms_1-a {
+                        padding-top: 32px;
+                        padding-bottom: 32px;
+                        border-bottom: 6px solid #262626;
+
+                        h1 {
+                            font-size: 2.5rem;
+                        }
+                    }
+                }
+
+                #main-section_2 {
+                    #ms_2-a {
+                        margin-left: 24px;
+
+                        h1 {
+                            font-size: 2rem;
+                            font-weight: 400;
+                            margin-bottom: 16px;
+                        }
+
+                        p {
+                            width: 90%;
+                            margin-left: 8px;
+                            font-size: 1.125rem;
+                        }
+                    }
+
+                    #ms_2-b {
+                        flex-direction: column;
+                        gap: 16px;
+
+                        #ms_2-b-history {
+                            margin-left: 12px;
+                            margin-right: 12px;
+                        }
+
+                        #ms_2-b-war {
+                            margin-left: 12px;
+                            margin-right: 12px;
+                        }
+                    }
+                }
+            }
+
+            #main-container_B {
+                border-top: 6px solid #262626;
+
+                #main-section_3 {
+                    width: 90%;
+                }
+            }
+
+            .sidepage-container {
+                width: 100%;
+
+                .sidepage-section {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top: 40px;
+                    padding-bottom: 70px;
+
+                    #deptContacts {
+                        flex-direction: column;
+                        gap: 0px
+                    }
+                }
+            }
+        }
+    }
+}
