@@ -11,11 +11,11 @@ class Footer extends HTMLElement {
                         <div>
                             <p>&#169 2023 Kootenai Tribe of Idaho</p>
                             <p>
-                                <br><br>
+                                <br>
                                 Phone: <a id="footer-link" href="tel:2082673519">(208) 267-3519</a> 
-                                <br><br>
+                                <br>
                                 Email: <a id="footer-link" href="mailto:info@kootenai.org">info@kootenai.org</a>
-                                <br><br>
+                                <br>
                                 Address: 100 Circle Drive, Bonners Ferry, ID 83805
                             </p>
                         </div>

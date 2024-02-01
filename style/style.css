@@ -209,7 +209,7 @@ main #main-container_A #main-section_1 #ms_1-a {
   padding-bottom: 32px;
   background-color: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
-  flex: 1.5;
+  flex: 1.25;
 }
 main #main-container_A #main-section_1 #ms_1-a h1 {
   font-size: 3rem;
@@ -445,7 +445,6 @@ main #main-container_C #main-section_4 #ms_4-b a h2 {
   margin-bottom: 24px;
 }
 .sidepage-container .sidepage-section p {
-  line-height: 1.5;
   margin-bottom: 24px;
 }
 .sidepage-container .sidepage-section #contact {
@@ -581,6 +580,9 @@ main #main-container_C #main-section_4 #ms_4-b a h2 {
   body header #banner {
     background-image: url(../images/banner_962px.png);
   }
+  body main #main-container_A #main-section_1 #ms_1-b {
+    display: none;
+  }
   body main #main-container_C #main-section_4 {
     width: 75%;
   }
@@ -642,9 +644,6 @@ main #main-container_C #main-section_4 #ms_4-b a h2 {
   }
   body main #main-container_A {
     width: 90%;
-  }
-  body main #main-container_A #main-section_1 #ms_1-b {
-    display: none;
   }
   body main #main-container_B #main-section_3 {
     width: 90%;
@@ -744,6 +743,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, table {
 p {
   font-size: 1.125rem;
   letter-spacing: 0.4px;
+  line-height: 2rem;
 }
 
 a {

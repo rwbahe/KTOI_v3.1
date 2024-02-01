@@ -156,6 +156,14 @@
         }
 
         main {
+            #main-container_A {
+                #main-section_1 {
+                    #ms_1-b {
+                        display: none;
+                    }
+                }
+            }
+
             #main-container_C {
                 #main-section_4 {
                     width: 75%;
@@ -266,12 +274,6 @@
         main {
             #main-container_A {
                 width: 90%;
-
-                #main-section_1 {
-                    #ms_1-b {
-                        display: none;
-                    }
-                }
             }
 
             #main-container_B {
