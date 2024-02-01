@@ -4,7 +4,7 @@
 main {
     padding-top: 2px; // to prevent collapsing margins
     border-top: 12px solid $border;
-    background-color: #f9f6ef;
+    background-color: rgba($color: #f9f6ef, $alpha: 1);
 
     #main-container_A {
         width: 56.25%;
@@ -73,7 +73,6 @@ main {
                 
                 p {
                     width: 75%;
-                    font-size: 1.125rem;
                 }
             }
 
@@ -132,7 +131,7 @@ main {
     #main-container_B {
         padding-top: 50px;
         padding-bottom: 50px;
-        background-color: rgba($color: $accent_org, $alpha: 0.5);
+        background-color: rgba($color: $accent_org, $alpha: 0.6);
 
         #main-section_3 {
             width: 56.25%;
@@ -150,10 +149,6 @@ main {
                     font-size: 2.5rem;
                     font-weight: 400;
                     margin-bottom: 24px;
-                }
-                
-                p {
-                    font-size: 1.125rem;
                 }
             }
 
@@ -185,7 +180,7 @@ main {
                     &:hover {
                         #ms_3-b-inn-dropdown {
                             opacity: 1;
-                            max-height: 240px;
+                            max-height: 280px;
                             transition-duration: 0.75s;
 
                             p {
@@ -232,7 +227,7 @@ main {
     #main-container_C {
         padding-top: 60px;
         padding-bottom: 60px;
-        background-color: rgba($color: $border, $alpha: 0.65);
+        background-color: rgba($color: $border, $alpha: 0.85);
         background-image: url(../images/banner-2.png);
         background-repeat: no-repeat;
         background-position: center;
