@@ -326,9 +326,12 @@ main #main-container_B #main-section_3 #ms_3-b #ms_3-b-inn #ms_3-b-inn-dropdown 
   opacity: 0;
   max-height: 0;
 }
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-inn #ms_3-b-inn-dropdown p {
+  line-height: 1.4rem;
+}
 main #main-container_B #main-section_3 #ms_3-b #ms_3-b-inn:hover #ms_3-b-inn-dropdown {
   opacity: 1;
-  max-height: 280px;
+  max-height: 320px;
   transition-duration: 0.75s;
 }
 main #main-container_B #main-section_3 #ms_3-b #ms_3-b-inn:hover #ms_3-b-inn-dropdown p {
@@ -348,6 +351,9 @@ main #main-container_B #main-section_3 #ms_3-b #ms_3-b-resort h2 {
 main #main-container_B #main-section_3 #ms_3-b #ms_3-b-resort #ms_3-b-resort-dropdown {
   opacity: 0;
   max-height: 0;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-resort #ms_3-b-resort-dropdown p {
+  line-height: 1.4rem;
 }
 main #main-container_B #main-section_3 #ms_3-b #ms_3-b-resort:hover #ms_3-b-resort-dropdown {
   opacity: 1;

@@ -175,12 +175,16 @@ main {
                     #ms_3-b-inn-dropdown {
                         opacity: 0;
                         max-height: 0;
+
+                        p {
+                            line-height: 1.4rem;
+                        }
                     }
 
                     &:hover {
                         #ms_3-b-inn-dropdown {
                             opacity: 1;
-                            max-height: 280px;
+                            max-height: 320px;
                             transition-duration: 0.75s;
 
                             p {
@@ -205,6 +209,10 @@ main {
                     #ms_3-b-resort-dropdown {
                         opacity: 0;
                         max-height: 0;
+
+                        p {
+                            line-height: 1.4rem;
+                        }
                     }
 
                     &:hover {
