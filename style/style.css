@@ -468,7 +468,7 @@ main #main-container_C #main-section_4 #ms_4-b a h2 {
 }
 .sidepage-container .sidepage-section #bullet-list {
   font-size: 1.125rem;
-  letter-spacing: 0.4px;
+  word-spacing: 1px;
   list-style: circle;
   margin-left: 36px;
 }
@@ -495,7 +495,6 @@ main #main-container_C #main-section_4 #ms_4-b a h2 {
 }
 .sidepage-container .sidepage-section table {
   font-size: 1.125;
-  letter-spacing: 0.4px;
 }
 
 /* responsive design code, desktop, tablet & mobile*/
@@ -748,7 +747,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, table {
 
 p {
   font-size: 1.125rem;
-  letter-spacing: 0.4px;
+  word-spacing: 1px;
   line-height: 2rem;
 }
 
