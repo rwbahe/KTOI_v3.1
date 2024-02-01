@@ -402,25 +402,20 @@ main #main-container_C #main-section_4 #ms_4-b {
 main #main-container_C #main-section_4 #ms_4-b p {
   margin-bottom: 16px;
 }
-main #main-container_C #main-section_4 #ms_4-b form {
-  font-size: 0.75rem;
-  font-family: "Quattrocento Sans", sans-serif;
-  text-transform: uppercase;
-}
-main #main-container_C #main-section_4 #ms_4-b form input {
-  display: block;
+main #main-container_C #main-section_4 #ms_4-b a {
   width: 240px;
   height: 40px;
-  margin-bottom: 16px;
-  font-size: 1.25rem;
-  opacity: 0.5;
-}
-main #main-container_C #main-section_4 #ms_4-b form button {
-  padding: 8px;
+  margin-bottom: 8px;
   border-radius: 6px;
-  border: none;
-  font-size: 0.875rem;
-  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+main #main-container_C #main-section_4 #ms_4-b a h2 {
+  margin-left: 12px;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 /* styling for sidepages found under "page_*" folders */
