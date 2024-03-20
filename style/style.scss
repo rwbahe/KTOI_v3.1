@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, table {
 }
 
 p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     word-spacing: 1px;
     line-height: 2rem;
 }
@@ -54,4 +54,40 @@ body {
     background-color: rgba($color: $accent_red, $alpha: 0.8);
     font-size: 0.75rem;
     color: #fff;
+}
+
+.ms_2-b_button {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100px;
+    height: 120px;
+    background-size: 100px 120px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+
+    div {
+        width: 100%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+#ms_2-b_button-one {
+    background-image: url(../images/Waterloop-FrontEnd.png);
+}
+
+#ms_2-b_button-two {
+    background-image: url(../images/Waterloop-PlanSet.png);
+}
+
+#ms_2-b_button-three {
+    background-image: url(../images/Waterloop-TechSpecs.png);
+}
+
+#ms_2-b-files {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }
