@@ -588,6 +588,10 @@ main #main-container_C #main-section_4 #ms_4-b a h2 {
   body main #main-container_A #main-section_1 #ms_1-b {
     display: none;
   }
+  body main #main-container_A #main-section_2 #ms_2-b #ms_2-b-war #ms_2-b-files {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   body main #main-container_C #main-section_4 {
     width: 75%;
   }
@@ -803,6 +807,10 @@ body {
   padding-bottom: 4px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+#ms_2-b_button-zero {
+  background-image: url(../images/Waterloop-Summary.png);
 }
 
 #ms_2-b_button-one {

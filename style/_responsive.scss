@@ -162,6 +162,17 @@
                         display: none;
                     }
                 }
+
+                #main-section_2 {
+                    #ms_2-b {
+                        #ms_2-b-war {
+                            #ms_2-b-files {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                            }
+                        }
+                    }
+                }
             }
 
             #main-container_C {
