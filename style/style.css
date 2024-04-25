@@ -825,8 +825,13 @@ body {
   background-image: url(../images/Waterloop-TechSpecs.png);
 }
 
+#ms_2-b_button-four {
+  background-image: url(../images/Waterloop-Addendum-1.png);
+}
+
 #ms_2-b-files {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 16px;
 }/*# sourceMappingURL=style.css.map */
